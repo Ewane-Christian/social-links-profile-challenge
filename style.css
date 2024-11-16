@@ -1,0 +1,70 @@
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+p{
+    font-size: 14px;
+}
+
+input:hover::placeholder{
+   color: #000;
+}
+
+input:hover{
+    background-color: hsl(75, 94%, 57%);
+    text-decoration: black;
+}
+img{
+    margin-top: 15px;
+    border-radius: 80%;
+}
+h2{
+    color: white;
+}
+
+h3{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+p{
+    color: white;
+}
+
+form{
+    text-align: center;
+    width: 400px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    font-family: sans-serif ;
+}
+
+input{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    width: 280px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-weight: 700;
+}
+
+div{
+    text-align: center;
+    margin-top: 10px;
+}
